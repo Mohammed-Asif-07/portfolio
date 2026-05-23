@@ -5,6 +5,21 @@ const navbar = document.getElementById('navbar');
 const navToggle = document.getElementById('navToggle');
 const navMenu = document.getElementById('navMenu');
 const navLinks = document.querySelectorAll('.nav-link');
+
+// ===========================
+// Preloader
+// ===========================
+window.addEventListener('load', () => {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+        setTimeout(() => {
+            preloader.classList.add('fade-out');
+            setTimeout(() => {
+                preloader.style.display = 'none';
+            }, 500);
+        }, 200);
+    }
+});
 const contactForm = document.getElementById('contactForm');
 const contactPhoneNumber = '918072499658';
 const contactEmail = 'aasif772007@gmail.com';
@@ -143,21 +158,52 @@ document.addEventListener('click', (e) => {
 });
 
 // ===========================
-// Smooth Scroll for Navigation Links
+// Smooth Scroll & Page Transition for Links
 // ===========================
-navLinks.forEach(link => {
+const allScrollLinks = document.querySelectorAll('a[href^="#"]');
+
+allScrollLinks.forEach(link => {
     link.addEventListener('click', function(e) {
         const href = this.getAttribute('href');
         
-        if (href.startsWith('#')) {
+        if (href === '#') return;
+        
+        const targetId = href.substring(1);
+        const targetSection = document.getElementById(targetId);
+        
+        if (targetSection) {
             e.preventDefault();
-            const targetId = href.substring(1);
-            const targetSection = document.getElementById(targetId);
+            const preloader = document.getElementById('preloader');
             
-            if (targetSection) {
+            if (preloader) {
+                // Show preloader
+                preloader.style.display = 'flex';
+                setTimeout(() => {
+                    preloader.classList.remove('fade-out');
+                }, 10);
+                
+                // Wait for fade-in, then jump and fade out
+                setTimeout(() => {
+                    const navbarHeight = navbar.offsetHeight;
+                    const targetPosition = targetSection.offsetTop - navbarHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'auto'
+                    });
+                    
+                    // Simulate processing time
+                    setTimeout(() => {
+                        preloader.classList.add('fade-out');
+                        setTimeout(() => {
+                            preloader.style.display = 'none';
+                        }, 500);
+                    }, 450);
+                    
+                }, 400);
+            } else {
                 const navbarHeight = navbar.offsetHeight;
                 const targetPosition = targetSection.offsetTop - navbarHeight;
-                
                 window.scrollTo({
                     top: targetPosition,
                     behavior: 'smooth'
@@ -337,8 +383,8 @@ if (contactForm) {
             to_phone: `+${contactPhoneNumber}`
         })
             .then(() => {
-                alert('Thank you! Your message has been sent.');
                 contactForm.reset();
+                window.location.href = 'thank-you.html';
             })
             .catch((error) => {
                 console.error('EmailJS error:', error);
