@@ -121,7 +121,7 @@ vercel
 
 ## 📄 License
 
-This project is created for Mohammed Asif's portfolio.
+This project is created for Mohammed Asif.
 
 ## 👤 Author
 
