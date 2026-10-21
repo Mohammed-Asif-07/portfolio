@@ -1,766 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed Asif - Full Stack Developer | Portfolio</title>
-    <!-- <title>Mohammed Asif Portfolio</title> -->
-     <meta name="google-site-verification" content="zPDgJSvKtr0TK6iZULsvz88USlS_5l1jUNe4kUykjm8" />
-
-<meta name="description" content="Mohammed Asif - Full Stack Developer Portfolio using HTML, CSS, JavaScript, Angular, Node.js and AI.">
-
-<meta name="keywords" content="Mohammed Asif, Asif Portfolio, Web Developer, HTML CSS JavaScript, Full Stack Developer">
-
-<meta name="author" content="Mohammed Asif">
-    <meta name="description" content="Mohammed Asif - Angular Developer, UI Engineer, and Full Stack Developer specializing in modern dashboards, AI-powered systems, and ERP platforms.">
-    <meta property="og:title" content="Mohammed Asif Portfolio">
-    <meta property="og:description" content="Portfolio website of Mohammed Asif">   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="canonical" href="https://mohammedaasif.in/">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohammed Asif — Developer & AI/DS Student</title>
+  <meta name="description" content="Mohammed Asif is a B.Tech Artificial Intelligence and Data Science student building web applications and exploring practical AI-powered software.">
+  <meta name="keywords" content="Mohammed Asif, developer portfolio, AI and Data Science student, full stack developer, JavaScript, Node.js, web development">
+  <meta name="author" content="Mohammed Asif">
+  <meta name="google-site-verification" content="zPDgJSvKtr0TK6iZULsvz88USlS_5l1jUNe4kUykjm8">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mohammed Asif — Developer Portfolio">
+  <meta property="og:description" content="I build useful web experiences and explore intelligent software.">
+  <meta property="og:url" content="https://mohammedaasif.in/">
+  <meta name="theme-color" content="#08090d">
+  <link rel="canonical" href="https://mohammedaasif.in/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Preloader -->
-    <div id="preloader" class="preloader">
-        <div class="tech-loader">
-            <span class="bracket left">&lt;</span>
-            <span class="slash">/</span>
-            <span class="bracket right">&gt;</span>
-        </div>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <a href="#home">Mohammed Asif</a>
-            </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li><a href="#contact" class="nav-cta">Hire Me</a></li>
-            </ul>
-            <div class="nav-toggle" id="navToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mohammed Asif home"><span class="brand-mark">a<span>.</span></span><span>MOHAMMED ASIF</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#work">Work</a><a href="#about">About</a><a href="#toolkit">Toolkit</a><a href="#journey">Journey</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
     </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="blob blob-1"></div>
-            <div class="blob blob-2"></div>
-            <div class="blob blob-3"></div>
+  <main id="main">
+    <section class="hero section shell" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> B.TECH AI & DATA SCIENCE <span class="eyebrow-divider">/</span> DEVELOPER</p>
+        <h1>Turning ideas<br>into <span class="gradient-text">useful software.</span></h1>
+        <p class="hero-intro">I'm Mohammed Asif — a student developer interested in full-stack engineering, thoughtful interfaces, and the possibilities of AI.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="container">
-            <div class="hero-grid">
-                <div class="hero-content">
-                    <div class="availability-badge">
-                        <span>Available for Hire</span>
-                    </div>
-                    <h1 class="hero-title">
-                        Hi, I'm <span class="gradient-text">Mohammed Asif</span>
-                    </h1>
-                    <p class="hero-role">Angular Developer | UI Engineer | Full Stack Developer</p>
-                    <p class="hero-description">
-                        I build modern dashboards, AI-powered systems, ERP platforms, and responsive web applications with clean code and beautiful interfaces.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">
-                            View Projects
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                                <polyline points="12 5 19 12 12 19"></polyline>
-                            </svg>
-                        </a>
-                        <a href="resume.html" class="btn btn-secondary">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                <polyline points="14 2 14 8 20 8"></polyline>
-                                <path d="M9 15s1-2 3-2 3 2 3 2"></path>
-                                <circle cx="12" cy="11" r="1"></circle>
-                            </svg>
-                            View Resume
-                        </a>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <div class="stat-value">15+</div>
-                            <div class="stat-label">Projects</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-value">20+</div>
-                            <div class="stat-label">Technologies</div>
-                        </div>
-                        <!-- <div class="stat-item">
-                            <div class="stat-value">2+</div>
-                            <div class="stat-label">Years Exp</div>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <div class="code-orbit">
-                        <div class="orbit-ring orbit-ring-outer"></div>
-                        <div class="orbit-ring orbit-ring-inner"></div>
-
-                        <div class="tech-chip chip-angular">Angular</div>
-                        <div class="tech-chip chip-ai">AI</div>
-                        <div class="tech-chip chip-node">Node.js</div>
-                        <div class="tech-chip chip-ui">UI</div>
-
-                        <div class="terminal-card">
-                            <div class="terminal-topbar">
-                                <div class="window-controls">
-                                    <div class="control red"></div>
-                                    <div class="control yellow"></div>
-                                    <div class="control green"></div>
-                                </div>
-                                <span>asif.dev</span>
-                            </div>
-                            <div class="terminal-body">
-                                <div class="code-line"><span class="code-muted">const</span> builder = <span class="code-string">'Mohammed Asif'</span>;</div>
-                                <div class="code-line"><span class="code-muted">await</span> build(<span class="code-string">'AI dashboards'</span>);</div>
-                                <div class="code-line"><span class="code-muted">deploy</span>({ ui: <span class="code-number">98</span>, speed: <span class="code-number">95</span> });</div>
-                                <div class="terminal-output">
-                                    <span class="prompt">$</span>
-                                    <span>ready_for_next_project</span>
-                                    <span class="cursor"></span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="build-card">
-                            <div class="build-icon">AI</div>
-                            <div>
-                                <span class="build-label">Current Focus</span>
-                                <strong>Clean apps with intelligent UX</strong>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="hero-meta"><span><span class="meta-line"></span> Based in India</span><span>Curious by default. Building by practice.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract 3D-inspired orbital artwork" role="img">
+        <div class="art-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="planet"><div class="planet-shine"></div><div class="planet-cut"></div></div>
+        <div class="art-cross cross-one">+</div><div class="art-cross cross-two">+</div>
+        <div class="art-label label-top"><span>FIG. 01</span><span>IDEA → BUILD</span></div>
+        <div class="art-label label-bottom"><span class="label-dot"></span><span>EXPLORING WHAT'S NEXT</span></div>
+        <svg class="art-wire" viewBox="0 0 420 420" aria-hidden="true"><path d="M45 280 C100 90 290 80 360 220 S180 400 70 180" fill="none"/><circle cx="360" cy="220" r="4"/><circle cx="70" cy="180" r="3"/></svg>
+      </div>
+      <a class="scroll-cue" href="#work"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span></a>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="about-grid">
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>
-                            I'm a passionate developer currently pursuing my <strong>B.Tech in Artificial Intelligence & Data Science</strong>. I specialize in building modern web applications that combine beautiful design with powerful functionality.
-                        </p>
-                        <p>
-                            With expertise in <strong>Angular</strong>, <strong>React</strong>, and <strong>Node.js</strong>, I create full-stack solutions that are scalable, maintainable, and user-friendly.
-                        </p>
-                        <p>
-                            My work ranges from AI-powered attendance systems to comprehensive ERP platforms, always focusing on delivering exceptional user experiences and clean, efficient code.
-                        </p>
-                    </div>
-                    <div class="education-card">
-                        <h3>Education</h3>
-                        <p class="education-degree">B.Tech in Artificial Intelligence & Data Science</p>
-                        <p class="education-tagline">Building the future with AI and intelligent systems</p>
-                    </div>
-                </div>
-                <div class="stats-grid">
-                    <div class="stat-card stat-blue">
-                        <div class="stat-icon">💻</div>
-                        <div class="stat-value">15+</div>
-                        <div class="stat-label">Projects Completed</div>
-                    </div>
-                    <div class="stat-card stat-purple">
-                        <div class="stat-icon">🎨</div>
-                        <div class="stat-value">30+</div>
-                        <div class="stat-label">UI Designs</div>
-                    </div>
-                    <div class="stat-card stat-indigo">
-                        <div class="stat-icon">🏆</div>
-                        <div class="stat-value">20+</div>
-                        <div class="stat-label">Technologies</div>
-                    </div>
-                    <div class="stat-card stat-green">
-                        <div class="stat-icon">👥</div>
-                        <div class="stat-value">2+ Years</div>
-                        <div class="stat-label">Experience</div>
-                    </div>
-                </div>
-            </div>
+    <section class="section work-section" id="work">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2>Things I've <span class="muted-heading">been building.</span></h2></div><p class="section-aside">Learning through real problems, one project at a time.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <a class="project-visual visual-gatex" href="https://github.com/Mohammed-Asif-07/GateX" target="_blank" rel="noreferrer" aria-label="View GateX repository">
+              <div class="visual-topline"><span>PRODUCT / WEB APP</span><span>01</span></div><div class="gatex-window"><div class="window-bar"><i></i><i></i><i></i><span>GateX / Dashboard</span></div><div class="gatex-body"><div class="gatex-side"><b>G.</b><span></span><span></span><span></span></div><div class="gatex-main"><small>STUDENT PORTAL</small><strong>Gate pass<br>management.</strong><div class="gatex-stats"><span><i></i> Requests</span><span><i></i> Approval</span></div><div class="gatex-row"></div><div class="gatex-row short"></div></div></div></div><span class="visual-open">↗</span>
+            </a>
+            <div class="project-info"><div><p class="project-type">COLLEGE WORKFLOW</p><h3>GateX</h3><p>A gate-pass workflow concept designed to connect student requests with staff review and approval.</p></div><a class="project-arrow" href="https://github.com/Mohammed-Asif-07/GateX" target="_blank" rel="noreferrer" aria-label="GateX on GitHub">↗</a></div>
+            <div class="tag-row"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+          </article>
+          <article class="project-card">
+            <a class="project-visual visual-attend" href="https://github.com/Mohammed-Asif-07" target="_blank" rel="noreferrer" aria-label="Explore my GitHub projects">
+              <div class="visual-topline"><span>APPLICATION / CONCEPT</span><span>02</span></div><div class="attendance-ui"><div class="attendance-head"><span>Attend<span class="accent">X</span></span><span class="tiny-pill">MANUAL ENTRY</span></div><div class="attendance-title">Attendance<br><b>overview</b></div><div class="attendance-chart"><div style="height:38%"></div><div style="height:65%"></div><div style="height:48%"></div><div style="height:83%"></div><div style="height:58%"></div><div style="height:95%"></div><div style="height:72%"></div></div><div class="attendance-bottom"><span>WEEKLY ACTIVITY</span><span>↗</span></div></div><span class="visual-open">↗</span>
+            </a>
+            <div class="project-info"><div><p class="project-type">EDUCATION TOOL</p><h3>AttendX</h3><p>An attendance-tracking app concept focused on simple manual attendance workflows.</p></div><a class="project-arrow" href="https://github.com/Mohammed-Asif-07" target="_blank" rel="noreferrer" aria-label="More projects on GitHub">↗</a></div>
+            <div class="tag-row"><span>Web development</span><span>UI design</span><span>Workflow</span></div>
+          </article>
+          <article class="project-card">
+            <a class="project-visual visual-data" href="https://github.com/Mohammed-Asif-07" target="_blank" rel="noreferrer" aria-label="Explore data and AI projects">
+              <div class="visual-topline"><span>DATA / EXPLORATION</span><span>03</span></div><div class="data-art"><div class="data-orb"></div><div class="data-axis axis-x"></div><div class="data-axis axis-y"></div><span class="data-point point-a"></span><span class="data-point point-b"></span><span class="data-point point-c"></span><span class="data-coordinate">EDA_01<br>DATA → INSIGHT</span><span class="data-number">01—03</span></div><span class="visual-open">↗</span>
+            </a>
+            <div class="project-info"><div><p class="project-type">LEARNING IN PUBLIC</p><h3>Data exploration</h3><p>Practising data cleaning, exploration and visual reasoning as part of my AI & Data Science journey.</p></div><a class="project-arrow" href="https://github.com/Mohammed-Asif-07" target="_blank" rel="noreferrer" aria-label="Explore data projects on GitHub">↗</a></div>
+            <div class="tag-row"><span>Python</span><span>Pandas</span><span>EDA</span></div>
+          </article>
         </div>
+        <div class="work-footer"><span>More experiments and source code</span><a class="text-link" href="https://github.com/Mohammed-Asif-07" target="_blank" rel="noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Skills & Expertise</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">A comprehensive toolkit for building modern, scalable web applications</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <div class="skill-icon skill-blue">🎨</div>
-                        <h3>Frontend</h3>
-                    </div>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Angular</span>
-                                <span>95%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-blue-bg" data-width="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>HTML5 & CSS3</span>
-                                <span>98%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-blue-bg" data-width="98"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>JavaScript</span>
-                                <span>92%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-blue-bg" data-width="92"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Bootstrap</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-blue-bg" data-width="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Angular Material</span>
-                                <span>88%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-blue-bg" data-width="88"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <div class="skill-icon skill-green">⚙️</div>
-                        <h3>Backend</h3>
-                    </div>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Node.js</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-green-bg" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Express.js</span>
-                                <span>82%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-green-bg" data-width="82"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>MongoDB</span>
-                                <span>80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-green-bg" data-width="80"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>REST APIs</span>
-                                <span>88%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-green-bg" data-width="88"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <div class="skill-icon skill-purple">🛠️</div>
-                        <h3>Tools & Tech</h3>
-                    </div>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Figma</span>
-                                <span>92%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-purple-bg" data-width="92"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>GitHub</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-purple-bg" data-width="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Postman</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-purple-bg" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Vercel</span>
-                                <span>88%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-purple-bg" data-width="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Git</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress skill-purple-bg" data-width="90"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="section about-section" id="about">
+      <div class="shell about-grid">
+        <div class="section-heading vertical-heading"><p class="eyebrow">02 / A LITTLE ABOUT ME</p><h2>Developer mindset.<br><span class="muted-heading">Student perspective.</span></h2><div class="about-mark" aria-hidden="true">a<span>.</span></div></div>
+        <div class="about-copy"><p class="about-lead">I enjoy taking a problem apart, understanding how its pieces fit together, and building a practical solution.</p><p>I'm pursuing a B.Tech in Artificial Intelligence and Data Science at Madras Engineering College. Alongside my coursework, I'm building web applications, strengthening my software fundamentals, and exploring where AI can make products more useful.</p><p>I'm not here to claim I know everything. I'm here to keep learning, ship projects, and get better through feedback and iteration.</p>
+          <div class="about-facts"><div><span class="fact-index">01</span><div><strong>Build with purpose</strong><small>Useful products over empty complexity.</small></div></div><div><span class="fact-index">02</span><div><strong>Learn by doing</strong><small>Projects, experiments and steady practice.</small></div></div><div><span class="fact-index">03</span><div><strong>Think end-to-end</strong><small>From interface to API and data.</small></div></div></div>
         </div>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">Showcasing innovative solutions that blend technology with user experience</p>
-            </div>
-            <div class="projects-list">
-                <div class="project-card">
-                    <div class="project-visual gradient-blue">
-                        <div class="project-number">01</div>
-                        <div class="feature-tags">
-                            <div class="feature-tag">Face Recognition</div>
-                            <div class="feature-tag">Geofencing</div>
-                            <div class="feature-tag">Attendance Analytics</div>
-                            <div class="feature-tag">AI Dashboard</div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Smart Attendance System</h3>
-                        <p>An AI-powered attendance system featuring face recognition, geofencing capabilities, and comprehensive attendance analytics dashboard.</p>
-                        <div class="tech-stack">
-                            <h4>Tech Stack</h4>
-                            <div class="tech-tags">
-                                <span>Angular</span>
-                                <span>Node.js</span>
-                                <span>MongoDB</span>
-                                <span>TensorFlow</span>
-                            </div>
-                        </div>
-                        <div class="project-buttons">
-                            <a href="#" class="btn btn-primary btn-small">
-                                View Project
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                    <polyline points="15 3 21 3 21 9"></polyline>
-                                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                                </svg>
-                            </a>
-                            <a href="#" class="btn btn-icon">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-visual gradient-green">
-                        <div class="project-number">02</div>
-                        <div class="feature-tags">
-                            <div class="feature-tag">Billing System</div>
-                            <div class="feature-tag">Admin Dashboard</div>
-                            <div class="feature-tag">Analytics</div>
-                            <div class="feature-tag">Reports</div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Invoice / ERP Dashboard</h3>
-                        <p>A comprehensive ERP solution with billing system, admin dashboard, real-time analytics, and detailed reporting capabilities.</p>
-                        <div class="tech-stack">
-                            <h4>Tech Stack</h4>
-                            <div class="tech-tags">
-                                <span>Angular</span>
-                                <span>Express.js</span>
-                                <span>MongoDB</span>
-                                <span>Chart.js</span>
-                            </div>
-                        </div>
-                        <div class="project-buttons">
-                            <a href="#" class="btn btn-primary btn-small">
-                                View Project
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                    <polyline points="15 3 21 3 21 9"></polyline>
-                                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                                </svg>
-                            </a>
-                            <a href="#" class="btn btn-icon">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-visual gradient-orange">
-                        <div class="project-number">03</div>
-                        <div class="feature-tags">
-                            <div class="feature-tag">Product Listing</div>
-                            <div class="feature-tag">OTP Authentication</div>
-                            <div class="feature-tag">Responsive UI</div>
-                            <div class="feature-tag">Modern Dashboard</div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Giveaway Platform</h3>
-                        <p>A modern giveaway platform with product listings, OTP authentication, responsive UI, and an intuitive modern dashboard.</p>
-                        <div class="tech-stack">
-                            <h4>Tech Stack</h4>
-                            <div class="tech-tags">
-                                <span>Angular</span>
-                                <span>Node.js</span>
-                                <span>Firebase</span>
-                                <span>Bootstrap</span>
-                            </div>
-                        </div>
-                        <div class="project-buttons">
-                            <a href="#" class="btn btn-primary btn-small">
-                                View Project
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                    <polyline points="15 3 21 3 21 9"></polyline>
-                                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                                </svg>
-                            </a>
-                            <a href="#" class="btn btn-icon">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="section toolkit-section" id="toolkit">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow">03 / MY TOOLKIT</p><h2>Tools I use to <span class="muted-heading">make things.</span></h2></div><p class="section-aside">A practical toolkit that's still growing.</p></div>
+        <div class="toolkit-grid">
+          <div class="toolkit-card"><span class="toolkit-number">01</span><div class="toolkit-icon">⌘</div><h3>Frontend</h3><p>Building responsive interfaces and connecting user experience to application logic.</p><div class="tool-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></div></div>
+          <div class="toolkit-card"><span class="toolkit-number">02</span><div class="toolkit-icon">⌁</div><h3>Backend</h3><p>Working with server-side routes, APIs, data flow and application structure.</p><div class="tool-tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span></div></div>
+          <div class="toolkit-card"><span class="toolkit-number">03</span><div class="toolkit-icon">◫</div><h3>Data & databases</h3><p>Learning to structure, query and explore data for useful application features.</p><div class="tool-tags"><span>MongoDB</span><span>SQL basics</span><span>Python</span><span>Pandas</span></div></div>
+          <div class="toolkit-card"><span class="toolkit-number">04</span><div class="toolkit-icon">⌘</div><h3>Tools & practice</h3><p>Using everyday developer tools to debug, test and improve my workflow.</p><div class="tool-tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>API testing</span></div></div>
         </div>
+        <p class="toolkit-note"><span class="status-dot"></span> Currently deepening my foundations in data structures, Java, Python and AI/ML.</p>
+      </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">My Journey</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">A timeline of growth, learning, and building</p>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-icon timeline-blue">🎓</div>
-                    <div class="timeline-content">
-                        <div class="timeline-badge">JAN 2026</div>
-                        <h3>Started Learning Web Development</h3>
-                        <p>Began my journey with HTML, CSS, and JavaScript, building foundational knowledge in web technologies.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon timeline-purple">💻</div>
-                    <div class="timeline-content">
-                        <div class="timeline-badge">FEB 2026</div>
-                        <h3>Frontend Development</h3>
-                        <p>Mastered Angular framework and modern frontend development practices, creating responsive and dynamic user interfaces.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon timeline-pink">🎨</div>
-                    <div class="timeline-content">
-                        <div class="timeline-badge">MAR 2026</div>
-                        <h3>UI/UX Design</h3>
-                        <p>Learned design principles and Figma, combining development skills with design thinking for better user experiences.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon timeline-green">🚀</div>
-                    <div class="timeline-content">
-                        <div class="timeline-badge">APR 2026</div>
-                        <h3>Backend Development</h3>
-                        <p>Expanded into full-stack development with Node.js, Express, and MongoDB, building complete web applications.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon timeline-indigo">🤖</div>
-                    <div class="timeline-content">
-                        <div class="timeline-badge">MAY 2026 - Present</div>
-                        <h3>AI & Advanced Projects</h3>
-                        <p>Working on AI-powered systems, ERP platforms, and advanced web applications, integrating AI/ML technologies.</p>
-                    </div>
-                </div>
-            </div>
+    <section class="section journey-section" id="journey">
+      <div class="shell journey-grid">
+        <div><p class="eyebrow">04 / CURRENT CHAPTER</p><h2>Learning today.<br><span class="muted-heading">Building for tomorrow.</span></h2><p class="journey-intro">My path is a work in progress — grounded in computer science fundamentals and shaped by projects I can learn from.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-pin"></span><p class="timeline-date">EDUCATION</p><h3>B.Tech — Artificial Intelligence & Data Science</h3><p>Madras Engineering College</p><small>Building foundations in algorithms, programming, data and intelligent systems.</small></article>
+          <article class="timeline-item"><span class="timeline-pin"></span><p class="timeline-date">PROJECT EXPERIENCE</p><h3>Co-founder — ZNova</h3><p>Digital product and web-development initiative</p><small>Supporting experience in turning website and software ideas into practical digital solutions.</small></article>
+          <article class="timeline-item"><span class="timeline-pin"></span><p class="timeline-date">NEXT MILESTONE</p><h3>Stronger engineering practice</h3><p>Projects · Internships · Collaboration</p><small>Focused on writing better code, documenting projects, and learning from real engineering teams.</small></article>
         </div>
+      </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Services I Offer</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">Comprehensive solutions for your web development needs</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon gradient-blue">📊</div>
-                    <h3>Dashboard Development</h3>
-                    <p>Build comprehensive admin dashboards and analytics platforms with real-time data visualization and intuitive interfaces.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon gradient-purple">🎨</div>
-                    <h3>UI/UX Design</h3>
-                    <p>Create beautiful, user-centered designs in Figma that prioritize usability and modern aesthetics for web applications.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon gradient-green">💻</div>
-                    <h3>Web Application Development</h3>
-                    <p>Develop full-stack web applications using modern frameworks like Angular, React, and Node.js with clean, maintainable code.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon gradient-orange">📱</div>
-                    <h3>Responsive Website Design</h3>
-                    <p>Build pixel-perfect responsive websites that work seamlessly across all devices, ensuring optimal user experience.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon gradient-indigo">🏢</div>
-                    <h3>ERP & Admin Panels</h3>
-                    <p>Design and develop enterprise resource planning systems and admin panels with comprehensive management features.</p>
-                </div>
-            </div>
-        </div>
+    <section class="contact-section section" id="contact">
+      <div class="shell contact-shell">
+        <div class="contact-heading"><p class="eyebrow">05 / YOUR TURN</p><h2>Have a problem<br>worth <span class="gradient-text">solving?</span></h2><p>I'm open to meaningful collaborations, project conversations, and opportunities to learn with a team.</p><div class="contact-direct"><span>EMAIL ME DIRECTLY</span><a href="mailto:aasif772007@gmail.com">aasif772007@gmail.com <span aria-hidden="true">↗</span></a></div><div class="social-links"><a href="https://github.com/Mohammed-Asif-07" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://www.instagram.com/_assuu07/" target="_blank" rel="noreferrer">Instagram ↗</a></div></div>
+        <div class="contact-form-wrap"><form id="contactForm"><div class="form-heading"><span>LET'S START A CONVERSATION</span><span class="form-index">FORM / 01</span></div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="How should I call you?"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"><label for="message">What's on your mind?</label><textarea id="message" name="message" rows="4" required placeholder="A project, an opportunity, or just a question..."></textarea><button class="button button-primary submit-button" type="submit">Send message <span aria-hidden="true">↗</span></button><p class="form-note" id="formStatus" aria-live="polite">Your message will be sent through my contact form service.</p></form></div>
+      </div>
     </section>
+  </main>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Client Testimonials</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">What clients say about working with me</p>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="quote-icon">❝</div>
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar gradient-blue">RK</div>
-                        <div>
-                            <h4>Rajesh Kumar</h4>
-                            <p>CEO, Tech Solutions</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-rating">
-                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
-                    </div>
-                    <p class="testimonial-text">
-                        "Mohammed delivered an exceptional ERP dashboard for our company. His attention to detail and technical expertise made the entire process smooth and efficient."
-                    </p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="quote-icon">❝</div>
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar gradient-green">PS</div>
-                        <div>
-                            <h4>Priya Sharma</h4>
-                            <p>Product Manager</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-rating">
-                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
-                    </div>
-                    <p class="testimonial-text">
-                        "Working with Mohammed was a great experience. He understood our requirements perfectly and created a beautiful, responsive web application that exceeded our expectations."
-                    </p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="quote-icon">❝</div>
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar gradient-orange">AP</div>
-                        <div>
-                            <h4>Arun Patel</h4>
-                            <p>Startup Founder</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-rating">
-                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
-                    </div>
-                    <p class="testimonial-text">
-                        "The giveaway platform Mohammed built for us is simply amazing. Clean code, modern design, and excellent performance. Highly recommend his services!"
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">Have a project in mind? Let's work together to bring your ideas to life</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-form-wrapper">
-                    <div class="contact-form-card">
-                        <h3>Send me a message</h3>
-                        <form id="contactForm">
-                            <div class="form-group">
-                                <label for="name">Your Name</label>
-                                <input type="text" id="name" name="name" required placeholder="John Doe">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Your Email</label>
-                                <input type="email" id="email" name="email" required placeholder="john@example.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project..."></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-full">
-                                Send Message
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <line x1="22" y1="2" x2="11" y2="13"></line>
-                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                                </svg>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div class="contact-info-wrapper">
-                    <div class="contact-info-card">
-                        <h3>Contact Information</h3>
-                        <div class="contact-info-list">
-                            <div class="contact-info-item">
-                                <div class="contact-info-icon">📧</div>
-                                <div>
-                                    <div class="contact-info-label">Email</div>
-                                    <div class="contact-info-value">aasif772007@gmail.com</div>
-                                </div>
-                            </div>
-                            <div class="contact-info-item">
-                                <div class="contact-info-icon">📱</div>
-                                <div>
-                                    <div class="contact-info-label">Phone</div>
-                                    <div class="contact-info-value">+91 8072499658</div>
-                                </div>
-                            </div>
-                            <div class="contact-info-item">
-                                <div class="contact-info-icon">📍</div>
-                                <div>
-                                    <div class="contact-info-label">Location</div>
-                                    <div class="contact-info-value">India</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="social-card">
-                        <h3>Follow Me</h3>
-                        <div class="social-grid">
-                            <a href="https://github.com/" target="_blank" class="social-link">
-                                💻 GitHub
-                            </a>
-                            <a href="https://www.linkedin.com/feed/" target="_blank" class="social-link">
-                                💼 LinkedIn
-                            </a>
-                            <a href="https://www.instagram.com/_assuu07/" target="_blank" class="social-link">
-                                📷 Instagram
-                            </a>
-                            <a href="mailto:aasif772007@gmail.com" class="social-link">
-                                ✉️ Email
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-text">
-                    © <span id="currentYear"></span> Mohammed Asif. All rights reserved.
-                </div>
-                <div class="footer-credits">
-                    <span>Designed & Developed with</span>
-                    <span class="heart">❤️</span>
-                    <span>by Asif</span>
-                </div>
-            </div>
-            <div class="footer-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="script.js"></script>
+  <footer class="site-footer"><div class="shell footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">a<span>.</span></span><span>MOHAMMED ASIF</span></a><p>Made with curiosity, care, and code.</p><a class="back-top" href="#home">BACK TO TOP ↑</a><span class="footer-copy">© <span id="currentYear"></span> MOHAMMED ASIF</span></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
